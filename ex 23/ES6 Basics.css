@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+section img {
+    height: 15.6rem;
+    border-radius: 1rem;
+}
+
+section {
+     background-color: rgba(101, 172, 73, 0.333);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1.5rem;
+     width: 60%;
+     margin: 10rem auto 0 auto;
+     gap: 1rem;
+     border-radius: 1rem;
+}
